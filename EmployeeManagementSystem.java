@@ -84,9 +84,9 @@ public class EmployeeManagementSystem {
     public static void main(String[] args) {
 
         // Creating objects of different employee types
-        Manager manager = new Manager("Alice", 101, 80000, 10);
-        Developer developer = new Developer("Bob", 102, 60000, "Java");
-        Intern intern = new Intern("Charlie", 103, 20000, "XYZ University");
+        Manager manager = new Manager("Ankush", 101, 80000, 10);
+        Developer developer = new Developer("Ansh", 102, 60000, "Java");
+        Intern intern = new Intern("Aditya", 103, 20000, "XYZ University");
 
         // Displaying details of each employee
         manager.displayDetails();
